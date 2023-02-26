@@ -1,0 +1,363 @@
+header,
+footer {
+    background-color: #E1D5C7;
+    border: solid 1px black;
+    border-radius: 1.5vw;
+}
+
+header {
+    height: 11vw;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+}
+
+body {
+    font-family: Avenir, Verdana, sans-serif;
+    line-height: 1.4;
+    font-size: 1.5vw;
+    background-color: #5F5E45;
+}
+
+nav a {
+    color: #A97750;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #B2A28D;
+    padding: 5px;
+    border-radius: 1.5vw;
+}
+
+header nav {
+    display: flex;
+    width: 75%;
+    float: right;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+    font-size: 2vw;
+    margin-right: 2.5vw;
+    margin-left: 1vw;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+
+.logo {
+    height: 50%;
+    width: 25%;
+    display: inline-block;
+    align-content: flex-start;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.crop {
+    margin-bottom: -10px;
+    margin-top: -30px;
+    margin-right: -20px;
+}
+
+.title {
+    display: inline-block;
+    float: right;
+    font-size: 1.5vw;
+    width: 70%;
+    margin-bottom: -15px;
+    padding: 0;
+}
+
+/* START Table for TeaTypes page */
+table,
+td,
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border-spacing: 0;
+    table-layout: fixed;
+    border: 3px solid black;
+    border-radius: 1.5vw;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #E1D5C7;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #9e9a9a;
+}
+
+th,
+tfoot {
+    text-align: center;
+}
+
+caption {
+    text-align: right;
+    caption-side: bottom;
+    color: black;
+}
+
+th {
+    background-color: #A97750;
+}
+
+caption a:visited,
+caption a:link,
+.homePage a:link,
+.homePage a:visited {
+    color: black;
+}
+
+td,
+th {
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.teaTypeBody {
+    padding: 20px;
+}
+
+/* END Table for TeaTypes 
+   START forms for Contact Us*/
+
+#contactUs {
+    text-align: center;
+}
+
+#contactUs button,
+#contactUs input,
+#contactUs select,
+#contactUs textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#contactUs textarea {
+    overflow: auto;
+}
+
+#contactUs label {
+    display: inline-block;
+    width: 25%;
+}
+
+#contactUs input[type="text"],
+#contactUs input[type="email"],
+#contactUs select,
+#contactUs textarea {
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    padding: 7px;
+    outline: none;
+    width: 30%;
+}
+
+#contactUs form div {
+    margin-bottom: 10px;
+}
+
+.submit-contact {
+    text-align: center;
+}
+
+/* .submit-contact */
+button {
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #A97750;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    height: 3.8vw;
+    width: 10vw;
+    font-size: 1vw;
+}
+
+.submit-contact button:hover {
+    background: #9e9a9a;
+}
+
+#contactUs input[type="text"]:focus,
+#contactUs input[type="email"]:focus,
+#contactUs select:focus,
+#contactUs textarea:focus {
+    border: 1px solid #00cc00;
+}
+
+#contactUs {
+    border: 3px solid black;
+    border-radius: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+/* END forms for Contact Us */
+
+#mainShopping .boxes {
+    border: 3px solid black;
+    width: 70%;
+    height: 16vw;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    background-color: #E1D5C7;
+}
+
+#mainShopping .textBox {
+    float: left;
+    font-size: 1.9vw;
+    text-align: center;
+    width: 59%;
+    height: 10%;
+    line-height: 1.5;
+}
+
+#mainShopping .imgBox {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: 50%, 50%;
+}
+
+#imgBox1,
+#imgBox3,
+#imgBox5,
+#imgBox7 {
+    background-image: url("../images/LemonTea256px.jpeg");
+}
+
+#imgBox2,
+#imgBox4,
+#imgBox6 {
+    background-image: url("../images/CupWithSaucer.png");
+}
+
+#imgBox8 {
+    background-image: url("../images/TShirt256.png");
+}
+
+#mainShopping img {
+    width: 100%;
+    height: 100%;
+}
+
+.cartPage tfoot {
+    background-color: #A97750;
+}
+
+#cartPage button {
+    text-align: center;
+    padding: 0.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.checkoutButton {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.bestSellers pre {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    font-family: Avenir, Verdana, sans-serif;
+    margin-left: -1vw;
+    margin-right: -1vw;
+}
+
+.bestSellers img {
+    display: block;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    border: black solid 1px;
+}
+
+.bestSellers a {
+    text-decoration-line: none;
+}
+
+.bestSellers h1 {
+    text-align: center;
+}
+
+.homePage .intro {
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border-bottom: solid 0.01px #B2A28D;
+    margin-top: 1vw;
+}
+
+.homePage .bestSellers {
+    margin-top:0;
+    border-top: solid 0.01px #B2A28D;
+    border-bottom: solid 0.01px #B2A28D;
+}
+
+.homePage .homeHours {
+    border-top: solid 0.01px #B2A28D;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.homePage div {
+    margin-top: 0;
+    margin-bottom:0;
+    display: block;
+    border: 3px solid black;
+    text-align: center;
+    margin: auto;
+    font-size: 1.9vw;
+}
+
+.homePage .homeHours pre {
+    font-family: Avenir, Verdana, sans-serif;
+    text-align: center;
+}
+
+.homePage p {
+    font-size: 2vw;
+    padding: 1.5vw;
+}
+
+.about {
+    border: 3px solid black;
+    border-radius: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    line-height: 2;
+    padding: 3vw;
+}
